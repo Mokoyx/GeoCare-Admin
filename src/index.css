@@ -1,0 +1,86 @@
+.list-group a:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.Login {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 33%;
+  padding: 60px 0;
+}
+.Login form {
+  margin: 0 auto;
+  max-width: 320px;
+}
+.btn-login {
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #79bd9a;
+  color: white;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: larger;
+  font-weight: 400;
+}
+.popup {
+  background-color: white;
+  padding: 20px 30px;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.btn-form {
+  margin: 10px 0;
+}
+.btn-add {
+  background-color: #79bd9a;
+  border-radius: 10px;
+  color: white;
+  width: 18%;
+  height: 40px;
+  font-weight: 500;
+  border: none;
+}
+.btn-cancel {
+  background-color: gray;
+  border-radius: 10px;
+  color: white;
+  width: 18%;
+  height: 40px;
+  font-weight: 500;
+  border: none;
+  margin-left: 10px;
+}
+.btn-addEvent {
+  background-color: #79bd9a;
+  border-radius: 10px;
+  color: white;
+  width: 10%;
+  height: 40px;
+  font-weight: 500;
+  border: none;
+}
+.form {
+  display: inline-block;
+  margin-right: 30px;
+}
+.form2 {
+  width: 94%;
+}
+.form-control {
+  width: 100%;
+}
+.form-group {
+  padding-top: 15px;
+}
+.avatar {
+  margin-left: 30px;
+}
+.pSize {
+  width: 20px;
+}
