@@ -114,19 +114,19 @@ function Users() {
                       nrOfLevels={10}
                       arcPadding={0.1}
                       cornerRadius={3}
-                      percent={reports.filter((report) => report.aid).length / totalCount}
+                      percent={reports.filter((report) => report.vehicle).length / totalCount}
                       needleColor="#345243"
                       textColor="transparent"
                     />
                     <p className="gauge-percent">
                       {Math.round(
-                        (reports.filter((report) => report.aid).length / totalCount) * 100
+                        (reports.filter((report) => report.vehicle).length / totalCount) * 100
                       )}
                       %
                     </p>
                   </div>
                   <h5 className="card-title">First Aid Rescue</h5>
-                  <p className="card-text">{reports.filter((report) => report.aid).length}</p>
+                  <p className="card-text">{reports.filter((report) => report.vehicle).length}</p>
                 </div>
               </div>
               <div className="card col-6 col-sm-4 col-md-3 col-lg-2 p-3 mb-3">
@@ -268,7 +268,7 @@ function Users() {
                     <td>
                       {report.waste && <div>Waste Management</div>}
                       {report.police && <div>Police Assistance</div>}
-                      {report.aid && <div>First Aid Rescue</div>}
+                      {report.vehicle && <div>First Aid Rescue</div>}
                       {report.fire && <div>Fire Emergency</div>}
                       {report.calamity && <div>Calamity/Flood</div>}
                       {report.traffic && <div>Traffic Management</div>}
