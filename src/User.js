@@ -80,7 +80,7 @@ function Users() {
               <thead>
                 <tr>
                   <th scope="col">Email</th>
-                  <th scope="col">is_Staff</th>
+                  <th scope="col">Staff</th>
                   <th scope="col">Action</th>
                 </tr>
               </thead>
